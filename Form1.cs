@@ -24,7 +24,8 @@ namespace CS_Week01_25017084_MyBusinessCard
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Random rd = new Random();
+            this.BackColor= Color.FromArgb(rd.Next(256), rd.Next(256), rd.Next(256));
         }
     }
 }
