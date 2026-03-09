@@ -58,7 +58,7 @@
             label2.Name = "label2";
             label2.Size = new Size(421, 86);
             label2.TabIndex = 2;
-            label2.Text = "수원대학교 지능형SW융합대학\r\n컴퓨터학부 컴퓨터SW";
+            label2.Text = "수원대학교 지능형SW융합대학\r\n컴퓨터학부 컴퓨터SW \r\n";
             label2.Click += label2_Click;
             // 
             // label3
