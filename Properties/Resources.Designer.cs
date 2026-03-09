@@ -69,5 +69,15 @@ namespace CS_Week01_25017084_MyBusinessCard.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20260310025457 {
+            get {
+                object obj = ResourceManager.GetObject("20260310025457", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
