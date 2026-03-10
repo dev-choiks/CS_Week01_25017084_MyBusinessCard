@@ -42,7 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("한컴 말랑말랑 Bold", 35.9999962F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(417, 39);
+            label1.Location = new Point(438, 43);
             label1.Name = "label1";
             label1.Size = new Size(192, 77);
             label1.TabIndex = 1;
@@ -54,7 +54,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("한컴 말랑말랑 Bold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 129);
             label2.ForeColor = Color.Red;
-            label2.Location = new Point(417, 132);
+            label2.Location = new Point(438, 136);
             label2.Name = "label2";
             label2.Size = new Size(421, 86);
             label2.TabIndex = 2;
@@ -66,7 +66,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("한컴 말랑말랑 Bold", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 129);
             label3.ForeColor = Color.FromArgb(255, 128, 0);
-            label3.Location = new Point(417, 243);
+            label3.Location = new Point(438, 247);
             label3.Name = "label3";
             label3.Size = new Size(375, 35);
             label3.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             button1.Font = new Font("한컴 말랑말랑 Bold", 17.9999981F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(417, 427);
+            button1.Location = new Point(438, 431);
             button1.Name = "button1";
             button1.Size = new Size(390, 80);
             button1.TabIndex = 4;
@@ -87,7 +87,7 @@
             // button2
             // 
             button2.Font = new Font("한컴 말랑말랑 Bold", 24F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button2.Location = new Point(417, 329);
+            button2.Location = new Point(438, 333);
             button2.Name = "button2";
             button2.Size = new Size(390, 80);
             button2.TabIndex = 5;
@@ -98,7 +98,7 @@
             // button3
             // 
             button3.Font = new Font("한컴 말랑말랑 Bold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button3.Location = new Point(52, 427);
+            button3.Location = new Point(73, 431);
             button3.Name = "button3";
             button3.Size = new Size(292, 77);
             button3.TabIndex = 6;
@@ -109,12 +109,13 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.tkwls1;
-            pictureBox1.Location = new Point(52, 39);
+            pictureBox1.Location = new Point(73, 43);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(292, 370);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
             // 
             // Form1
             // 

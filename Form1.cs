@@ -39,5 +39,19 @@ namespace CS_Week01_25017084_MyBusinessCard
         {
             pictureBox1.Image = Properties.Resources.tkwls2;
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.None;
+        }
     }
 }
